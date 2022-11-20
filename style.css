@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btnstyle{
+  @apply bg-gray-700 rounded py-3 text-xl hover:bg-gray-500
+}
+.btnoperant{
+  @apply bg-brcolor rounded py-3 hover:font-semibold text-xl
+}
+.btnequal{
+  @apply bg-green-600 rounded py-3  text-xl hover:font-bold
+}

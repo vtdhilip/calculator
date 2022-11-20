@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div id="app" class="bg-gray-900 min-h-screen text-white p-10">
+    <div class="card max-w-sm p-5 bg-gray-800 mx-auto rounded-lg border border-gray-700">
+      <div class="card-heading tracking-wider ">
+        Calculator
+      </div>
+      <div class="card-body ">
+        <div class="px-3 my-10 text-right text-2xl">
+          190306+1024
+        </div>
+
+        <div class="flex">
+          <div class="grid grid-cols-3 gap-5 w-10/12 pr-5">
+          <button class="btnstyle text-red-300 !bg-red-700 !bg-opacity-20 text-xl font-semibold hover:!bg-opacity-40">C</button>
+          <button class="btnstyle">(</button>
+          <button class="btnstyle">)</button>
+          <button class="btnstyle">7</button>
+          <button class="btnstyle">8</button>
+          <button class="btnstyle">9</button>
+          <button class="btnstyle">4</button>
+          <button class="btnstyle">5</button>
+          <button class="btnstyle">6</button>
+          <button class="btnstyle">1</button>
+          <button class="btnstyle">2</button>
+          <button class="btnstyle">3</button>
+          <button class="btnstyle col-span-2">0</button>
+          <button class="btnstyle">.</button>
+          </div>
+          <div class="w-2/12 flex flex-col gap-5">
+            <button class="btnoperant">/</button>
+            <button class="btnoperant">x</button> 
+            <button class="btnoperant">-</button> 
+            <button class="btnoperant">+</button>
+            <button class="btnequal">=</button>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+
+</body>
+
+</html>
